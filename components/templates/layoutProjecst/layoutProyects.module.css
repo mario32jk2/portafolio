@@ -1,0 +1,62 @@
+.containerBOxesProjects {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 153px;
+    grid-template-rows: 70px 150px 150px 150px 150px;
+    grid-column-gap: 24px;
+
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.navLink {
+    grid-area: 1 / 1 / 2 / 5;
+    margin-bottom: 10px;
+}
+
+.hotel {
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.swip {
+    grid-area: 2 / 3 / 4 / 5;
+}
+
+.antMan {
+    grid-area: 4 / 1 / 6 / 3;
+}
+
+@media only screen and (max-width: 768px) {
+    .containerBOxesProjects {
+        display: grid;
+        grid-template-columns: 95%;
+        grid-template-rows: repeat(10,100px);
+        grid-column-gap: 24px;
+        justify-content: center;
+        align-items: stretch;
+        width: 100%;
+        height: 100vh;
+  
+    }
+    
+    
+    .navLink {
+        grid-area: 1 / 1 / 3 / 2;
+        margin-bottom: 10px;
+    }
+    
+    .hotel {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+    
+    .swip {
+        grid-area: 5 / 1 / 7 / 2;
+    }
+    
+    .antMan {
+        grid-area: 8 / 1 / 10 / 2;
+    }
+
+}

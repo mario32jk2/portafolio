@@ -1,0 +1,20 @@
+.ageNumber{
+    font-size: 3.75rem;
+    margin: 0;
+}
+.ageP{
+    font-size: 
+    0.938rem;
+    margin: 0;
+}
+@media only screen and (max-width: 768px) {
+    .ageNumber{
+        font-size: 20px;
+    }
+    .ageP{
+        font-size: 
+        11px;
+        
+    }
+  }
+  

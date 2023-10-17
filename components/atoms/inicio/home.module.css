@@ -1,0 +1,58 @@
+.link{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: #5D12D2;
+    padding: 16px 30px;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    position: fixed;
+    width: 765px;
+    z-index: 5;
+}
+.nav:hover{
+    background-color: #343366;
+    color: #fff;
+
+}
+.homeicon{
+    transition: transform 0.2s ease;
+}
+
+.nav .homeicon:hover{
+    transform: scale(1.5);
+}
+@media only screen and (max-width: 768px) {
+    .link{
+        text-decoration: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        background-color: #5D12D2;
+        padding: 16px 30px;
+        color: white;
+        border-radius: 10px;
+        align-items: center;
+        transition: background-color 0.3s, color 0.3s;
+        position: fixed;
+        width: 95%;
+        box-sizing: border-box;
+    }
+    .nav:hover{
+        background-color: #343366;
+        color: #fff;
+    
+    }
+    .homeicon{
+        transition: transform 0.2s ease;
+    }
+    
+    .nav .homeicon:hover{
+        transform: scale(1.5);
+    }
+}

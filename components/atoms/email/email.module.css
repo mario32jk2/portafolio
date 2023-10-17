@@ -1,0 +1,21 @@
+.iconMail {
+    width: 60%;
+    height: auto;
+}
+
+.contenedorIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.containerSeendIcon {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    height: 10%;
+}

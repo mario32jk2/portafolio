@@ -1,0 +1,20 @@
+.title{
+font-size: 35px;
+
+}
+.paragraft{
+font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .title{
+font-size: 20px;
+margin: 5px;
+    }
+    .paragraft{
+    font-size: 12px;
+    margin: 0;
+    }
+    
+  }
+  

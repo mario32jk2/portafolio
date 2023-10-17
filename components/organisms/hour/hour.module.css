@@ -1,0 +1,24 @@
+.hourContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titleTime{
+    font-size: 1.25rem;
+}
+.hourP{
+    font-size: 2.188rem;
+    margin: 0%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .titleTime{
+        font-size: 12px;
+    }
+    .hourP{
+        font-size: 20px;
+    }
+  }
+  
